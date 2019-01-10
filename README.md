@@ -23,6 +23,9 @@ Build the server project and get the exe ready. Run the below command to install
 > cd C:\Windows\Microsoft.NET\Framework\v4.0.30319\
 > InstallUtil.exe /u "<Full path to the service executable>"
 ```
+### Issues
+
+- UE4 UEWebsocket client is not accepting websockets with port.
 
 ## Maintainer
 
