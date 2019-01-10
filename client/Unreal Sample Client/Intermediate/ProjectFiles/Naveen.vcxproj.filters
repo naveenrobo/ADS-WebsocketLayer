@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Naveen.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{45F267F8-B6ED-4244-B955-8CCE6ADA8D30}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Naveen.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NaveenEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BCB05B2B-1D2B-405C-B883-A0942DD7D6C9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Naveen">
+      <UniqueIdentifier>{886EAA0A-92AF-48BC-ACB5-1F91741A40BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Naveen\MyClass.cpp">
+      <Filter>Source\Naveen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naveen\MyClass.h">
+      <Filter>Source\Naveen</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Naveen\Naveen.Build.cs">
+      <Filter>Source\Naveen</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Naveen\Naveen.cpp">
+      <Filter>Source\Naveen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naveen\Naveen.h">
+      <Filter>Source\Naveen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -27,13 +27,14 @@ namespace DotworldService
            try
             {
                 adsClient = new TcAdsClient();
-                adsClient.Connect("192.168.1.8.1.1", 851);
+                adsClient.Connect("5.82.1.8.1.1", 851);
                 lrealHandle = adsClient.CreateVariableHandle("MAIN.M1");
             }
             catch(Exception e)
             {
                 error = true;
                 log.Fatal("Exception while trying to connect to ADS");
+                log.Error(e.Message);
             }
         }
 
@@ -92,8 +93,8 @@ namespace DotworldService
             try
             {
                 log.Info("Starting websocket server");
-                wssv = new WebSocketServer("ws://localhost:6001");
-                wssv.AddWebSocketService<ADSClientLayer>("/test");
+                wssv = new WebSocketServer("ws://127.0.0.1");
+                wssv.AddWebSocketService<ADSClientLayer>("/");
                 wssv.Start();
                 log.Info("Started websocket server on localhost");
             }

@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Naveen.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\2018\Projects\nandhan learning\Naveen\Intermediate\Build\Win64\NaveenEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\2018\Projects\nandhan learning\Naveen\Intermediate\Build\Win64\UE4Editor\Development\Naveen\MyClass.cpp.obj"
+"D:\2018\Projects\nandhan learning\Naveen\Intermediate\Build\Win64\UE4Editor\Development\Naveen\Naveen.cpp.obj"
+"D:\2018\Projects\nandhan learning\Naveen\Intermediate\Build\Win64\UE4Editor\Development\Naveen\PCLaunch.rc.res"
+/OUT:"D:\2018\Projects\nandhan learning\Naveen\Intermediate\Build\Win64\UE4Editor\Development\Naveen\UE4Editor-Naveen.lib"
